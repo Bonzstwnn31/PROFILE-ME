@@ -1,0 +1,70 @@
+#wrapper{
+    width: 500px;   
+    background-image: url(LOLOTS.jpg)
+}
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.botak{
+    width: 400px;
+    height: 50px;
+    border: solid 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 50px;
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.botak:hover{
+    background-color: rgb(3, 33, 204);
+}
+ 
+.header{
+    text-align: center;
+    font-size: 35px;
+}
+.header h3{
+    color: rgb(230, 223, 219);
+    font-style: italic;
+}
+.header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150%;
+    margin-top: 10px;
+}
+
+.botak{
+    background-color: rgba(241, 237, 237, 0);
+    color: rgba(242, 241, 248, 0.952);
+    border: 2px solid #fbfcfb; /* Green */
+}
+
+.botak{
+    transition-duration: 0.4s;
+}
+  
+.botak:hover{
+    background-image: url("gojo.gif");
+    color: rgb(22, 19, 209);
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #0a010a00;
+    color: rgb(250, 245, 248);
+    text-align: center;
+    font-style: italic;
+}
